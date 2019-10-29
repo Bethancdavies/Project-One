@@ -297,7 +297,12 @@ button{
   font-family: "Iceberg", cursive; 
   font-size: 2.5rem;
   line-height: 29px; 
-  text-align: center;
+  text-align: center; 
+  margin: 0 auto; 
+  background: #9200FF; 
+  border: none;
+  color: white; 
+  padding: 5px 30px;
 }
 /* WRAPPER */
 .wrapper {
