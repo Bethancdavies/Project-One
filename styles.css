@@ -278,6 +278,7 @@ nav li {
 }
 h2 {
   font-size: 5.2rem;
+  text-align: left;
 }
 h4 {
   font-family: "Montserrat", sans-serif;
@@ -289,6 +290,14 @@ p {
   font-family: "Montserrat", sans-serif;
   font-size: 2rem;
   line-height: 29px;
+} 
+button{ 
+
+  text-transform: uppercase;
+  font-family: "Iceberg", cursive; 
+  font-size: 2.5rem;
+  line-height: 29px; 
+  text-align: center;
 }
 /* WRAPPER */
 .wrapper {
@@ -346,13 +355,15 @@ h3 {
 /* general styling also */
 /* Floating text/images styling */
 .backgroundFloating {
-  background: #0f0632; 
+  background: #0f0632;  
+  text-align: left;
+  
 
 }
 .floatingTextOne {
   float: left;
   width: 50%;
-  text-align: center;
+  
 }
 .floatingImageOne {
   float: left;
@@ -361,7 +372,7 @@ h3 {
 .floatingTextTwo {
   float: right;
   width: 50%;
-  text-align: center;
+  
 }
 .floatingImageTwo {
   float: left;
@@ -374,7 +385,7 @@ h3 {
 .floatingTextSmall {
   float: right;
   width: 60%;
-  text-align: center;
+  
 }
 .floatingSmallStyle {
   background: #08080b;
@@ -391,6 +402,10 @@ h3 {
   float: left; 
   width: 33%;
   margin-top:100px;
+} 
+.threeIconNav i{
+  font-size: 6rem; 
+  padding-bottom: 20px;
 }
 
 
@@ -399,13 +414,18 @@ h3 {
 .gallery {
   background: #0f0632;
   text-align: center;
-  height: 450px;
+  height: 100%;
   font-size: 3rem;
 }
 .gallery li {
   float: left;
   width: calc(100% / 3);
-  padding: 10px;
+  padding: 10px;  
+  margin-bottom: 50px;
+} 
+.gallery h2{
+  text-align: center; 
+  padding: 50px;
 }
 
 /*Footer Styling */
@@ -430,10 +450,11 @@ h3 {
   float: left;
   width: 50%;
 }
-bottomNavR {
+.bottomNavR {
   float: right;
   width: 50%;
-}  
+}   
+
 
 
 
