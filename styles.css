@@ -298,11 +298,13 @@ button{
   font-size: 2.5rem;
   line-height: 29px; 
   text-align: center; 
-  margin: 0 auto; 
   background: #9200FF; 
   border: none;
   color: white; 
-  padding: 5px 30px;
+  padding: 5px 30px; 
+  display: block; 
+  margin: 0 auto; 
+  margin-top: 20px;
 }
 /* WRAPPER */
 .wrapper {
@@ -367,7 +369,8 @@ h3 {
 }
 .floatingTextOne {
   float: left;
-  width: 50%;
+  width: 50%; 
+  padding: 50px;
   
 }
 .floatingImageOne {
@@ -377,6 +380,7 @@ h3 {
 .floatingTextTwo {
   float: right;
   width: 50%;
+  padding: 50px;
   
 }
 .floatingImageTwo {
@@ -385,11 +389,13 @@ h3 {
 }
 .floatingImageSmall {
   float: left;
-  width: 30%;
+  width: 30%; 
+  padding: 50px 0;
 }
 .floatingTextSmall {
   float: right;
   width: 60%;
+  padding: 50px;
   
 }
 .floatingSmallStyle {
