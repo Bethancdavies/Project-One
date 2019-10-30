@@ -254,7 +254,8 @@ h2 {
   font-family: "Iceberg", cursive;
   text-transform: uppercase;
   padding: 0;
-  margin: 0;
+  margin: 0; 
+  font-weight: 500;
 }
 img {
   max-width: 100%;
@@ -508,7 +509,12 @@ form{
   margin-top: 20px;
 } 
 
-/* Hover States */ 
+/* Hover States */  
+li:hover,
+a:hover,
+i:hover{
+  font-weight: 700;
+}
 /* if time do hover states of navs and more form styling */
 /* Media Queries :) */
 
@@ -534,7 +540,6 @@ form{
   
   .floatingTextSmall {
     float:none ; 
-    text-align: center; 
     margin: 0 auto;
     width: 100%;
   } 
@@ -577,8 +582,62 @@ input[type=email]{
 } 
 .mainFooter h2{
   text-align: center;
+} 
+h2{
+  font-size: 3rem;
 }
+h3{font-size:2.5rem;}
+} 
+a{
+  font-size: 1.5rem;
+} 
+h1{
+  margin-left: none; 
+  font-size: 6rem;
+  width: 100%;
+} 
+button{
+  font-size: 4rem;
+  padding: 20px 10px;
 }
 
 /* Phone */
-@media (max-width: 763px)
+@media (max-width: 480px){ 
+.wrapper{
+  margin: 0 5px;
+}
+.topNav ul, 
+.sideNav{
+visibility: hidden;
+}  
+
+.mainText h3{ 
+  width: 100%;
+} 
+.hamburgerMenu{ 
+display: inline; 
+} 
+.iconFloat{
+  float:none; 
+  font-size: 2rem; 
+  width: 100%;
+  margin: 0; 
+  padding-top: 20px;
+}
+.threeIconNav{
+  height: 400px;
+} 
+.hidden{
+  display: none;
+} 
+.duoGallery{
+  width: 50%;
+  margin: 0 auto;
+} 
+.gallery li{ 
+  width: 50%;
+}
+h1{
+  margin-top:250px;
+}
+}
