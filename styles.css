@@ -243,7 +243,8 @@ html {
     8, 8, 11
 */
 
-/* GENERAL STYLING */
+/* GENERAL STYLING */ 
+
 html {
   color: white;
   font-size: 62.5%;
@@ -309,7 +310,8 @@ button{
 /* WRAPPER */
 .wrapper {
   max-width: 1100px;
-  margin: 0 auto;
+  margin: 0 auto; 
+  padding: 0 20px;
 }
 /* HEADER */
 header {
@@ -354,7 +356,7 @@ h3 {
 .sideNav a {
   display: block;
   padding: 8px;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: white;
   width: 40px;
 }
@@ -364,6 +366,7 @@ h3 {
 .backgroundFloating {
   background: #0f0632;  
   text-align: left;
+ 
   
 
 }
@@ -371,21 +374,23 @@ h3 {
   float: left;
   width: 50%; 
   padding: 50px;
+  background: #0f0632;
+  height: 100%;
+  display:block;
   
-}
-.floatingImageOne {
-  float: left;
-  width: 50%;
 }
 .floatingTextTwo {
   float: right;
   width: 50%;
-  padding: 50px;
-  
+  padding: 50px; 
+  height: 500px;;
+   
 }
-.floatingImageTwo {
-  float: left;
-  width: 50%;
+.floatingImageTwo,
+.floatingImageOne {
+  width: 50%; 
+  height: 500px;
+ 
 }
 .floatingImageSmall {
   float: left;
@@ -498,3 +503,31 @@ form{
 
 
 
+@media (max-width: 1046px) { 
+  .wrapper{
+    margin: 0 40px;
+  }
+  .floatingTextSmall {
+    float:none ; 
+    text-align: center; 
+    margin: 0 auto;
+    width: 100%;
+  } 
+  .floatingImageSmall{
+    float: none; 
+    margin: 0 auto;
+    width: 100%; 
+    max-width: 100%;
+  } 
+  .floatingTextSmall h2{
+    text-align: center;
+  } 
+  .floatingTextSmall button{
+    display: block;
+margin: auto;
+    margin-top: auto;
+margin-top: 20px;
+
+  }
+
+}
