@@ -336,6 +336,17 @@ h3 {
   width: 50%;
   margin: 0 auto;
 }
+.hamburgerMenu{ 
+position: absolute;
+top: 0;
+right: 0;
+
+padding: rig;
+
+padding: 30px;
+
+font-size: 4rem; 
+display: none;}
 .topNav ul {
   text-align: center;
   padding-top: 20px;
@@ -507,6 +518,20 @@ form{
   .wrapper{
     margin: 0 40px;
   }
+  .floatingTextTwo,
+  .floatingTextOne{
+    width: 100%;
+    float: none; 
+    height: auto;
+    
+  } 
+  .floatingImageTwo,
+  .floatingImageOne{ 
+    margin: 0 auto; 
+    width: 100%;  
+    object-fit: cover;
+  } 
+  
   .floatingTextSmall {
     float:none ; 
     text-align: center; 
@@ -527,7 +552,10 @@ form{
 margin: auto;
     margin-top: auto;
 margin-top: 20px;
-
   }
-
+} 
+@media (max-width: 763x){ 
+  
 }
+
+
