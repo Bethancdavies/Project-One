@@ -586,29 +586,30 @@ input[type=email]{
 .mainFooter h2{
   text-align: center;
 } 
+h1{
+  font-size: 6rem;
+}
 h2{
   font-size: 3rem;
 }
-h3{font-size:2.5rem;}
-} 
+h3{font-size:2.5rem;
+}
+
 a{
   font-size: 1.5rem;
 } 
 h1{
   margin-left: none; 
-  font-size: 6rem;
-  width: 100%;
+  
 } 
-button{
-  font-size: 4rem;
-  padding: 20px 10px;
-}
 
+} 
 /* Phone */
 @media (max-width: 480px){ 
 .wrapper{
   margin: 0 5px;
 }
+
 .topNav ul, 
 .sideNav{
 visibility: hidden;
@@ -642,5 +643,6 @@ display: inline;
 }
 h1{
   margin-top:250px;
+  width: 100%;
 }
 }
