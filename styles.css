@@ -513,7 +513,7 @@ form{
 /* Media Queries :) */
 
 
-
+/* small desktops */
 @media (max-width: 1046px) { 
   .wrapper{
     margin: 0 40px;
@@ -554,8 +554,31 @@ margin: auto;
 margin-top: 20px;
   }
 } 
-@media (max-width: 763x){ 
-  
+/* small desktops/tablets */
+@media (max-width: 763px){ 
+
+.bottomNavR, 
+.bottomNavL, 
+.input[type=email]{
+float:none; 
+margin: 0 auto; 
+display: block;
+width:100%;
+text-align: center;
+}
+.bottomNavR button{
+  display: block; 
+  width: 100%;
+  margin-bottom: 40px;
+}
+input[type=email]{
+  width: 100%; 
+  text-align: center;
+} 
+.mainFooter h2{
+  text-align: center;
+}
 }
 
-
+/* Phone */
+@media (max-width: 763px)
